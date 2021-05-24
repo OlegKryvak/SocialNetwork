@@ -1,0 +1,23 @@
+.nav {
+    grid-area: n;
+    background-color: darkmagenta;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item a{
+    cursor: pointer;
+    color: gold;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: silver;
+}
+
+.item a.activeLink {
+    cursor: pointer;
+    color: white;
+}

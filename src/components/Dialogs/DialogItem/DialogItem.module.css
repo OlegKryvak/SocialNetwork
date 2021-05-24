@@ -1,0 +1,26 @@
+.dialog {
+  width: 100px;
+}
+
+.dialog:hover {
+  
+  cursor: pointer;
+}
+
+.dialog a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+.dialog a:hover {
+    color: red;
+  }
+
+.dialog .activeLink {
+  color: yellow;
+  margin-left: 10px;
+}
+.dialog .activeLink:hover {
+    color: black;
+    margin-left: 10px;
+  }
